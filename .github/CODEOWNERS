@@ -1,0 +1,6 @@
+# Mínimo para el laboratorio. Con `* @santifer` ningún fichero podría ser "trivial"
+# (el gate no-codeowners exige que la PR no toque ficheros de Santiago), así que se
+# reproduce la forma del CODEOWNERS real: rutas concretas, no todo el árbol.
+/.github/   @santifer
+/README.md  @santifer
+/lib/       @santifer
