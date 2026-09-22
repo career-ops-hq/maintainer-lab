@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // GENERADO por github-src/scripts/build.mjs: no editar a mano. Fuente: github-src/scripts/triage.mjs + bin/lib/triage-core.mjs + policy/*.json
-// {"builtAt":"2026-09-22T20:42:03.022Z","core":"bin/lib/triage-core.mjs","policies":{"labels":"8 entradas","trivial":"16 entradas","priority":"7 entradas"}}
+// {"builtAt":"2026-09-22T20:50:06.718Z","core":"bin/lib/triage-core.mjs","policies":{"labels":"8 entradas","trivial":"16 entradas","priority":"7 entradas"}}
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -317,7 +317,10 @@ function classify(snapshot, { labelsPolicy, trivialPolicy, priorityPolicy, now =
   const firstResponseMissing = !responded && hoursSince(snapshot.createdAt, now) > priorityPolicy.firstResponseHours;
   const gatesRes = evaluateGates(snapshot, trivialPolicy, { labelsPolicy, sessionCount });
   const trivialCandidate = gatesRes.gates.filter(g => g.id !== 'session-cap').every(g => g.status === 'pass');
-  const waitingKept = has(snapshot, 'triage/waiting-author') && !(snapshot.lastMaintainerCommentAt && snapshot.lastAuthorActivityAt > snapshot.lastMaintainerCommentAt);
+  // waiting-author se conserva solo mientras el autor no haya actuado (push/comentario) después de nuestro último
+  // comentario o de la puesta del label (labeledAt). Sin ninguna referencia no se conserva: manda la causa objetiva.
+  const waitRef = [snapshot.lastMaintainerCommentAt, snapshot.labeledAt?.['triage/waiting-author']].filter(Boolean).sort().at(-1) || null;
+  const waitingKept = has(snapshot, 'triage/waiting-author') && !!waitRef && !(snapshot.lastAuthorActivityAt > waitRef);
   const changesRequested = snapshot.reviewDecision === 'CHANGES_REQUESTED';
   const reReview = okGiven || staleApproval(snapshot, labelsPolicy.maintainers);
 
