@@ -3,7 +3,7 @@
 // Un bloque por sha7 (se reemplaza, nunca se duplica); números a 2 decimales; comentario ≤ 60 KB.
 // Lo usan la Action (github-src/scripts/triage.mjs, inlineado en el bundle) y la sesión (import directo).
 
-export const JEV_MARKER_RE = /<!--\s*co:jev:(\d+):([0-9a-f]{7})\s+(\{[\s\S]*?\})\s*-->/g;
+export const JEV_MARKER_RE = /<!--\s*co:jev:(\d+):([0-9a-f]{7})\s+(\{[\s\S]*?\})\s*--!?>/g; // `--!?>`: CodeQL js/bad-tag-filter
 export const MAX_COMMENT_BYTES_JEV = 60 * 1024;
 
 /** Redondea todo número a 2 decimales, recursivamente. */
@@ -33,7 +33,7 @@ export function parseJevMarker(body, sha7 = null) {
 /** Inserta o reemplaza el bloque de ese sha7 al final del cuerpo. Si no cabe en 60 KB, quita los bloques más antiguos. */
 export function upsertJevMarker(body, pr, sha7, payload) {
   const block = buildJevMarker(pr, sha7, payload);
-  const own = new RegExp(`\\n*<!--\\s*co:jev:${pr}:${sha7}\\s+\\{[\\s\\S]*?\\}\\s*-->`, 'g');
+  const own = new RegExp(`\\n*<!--\\s*co:jev:${pr}:${sha7}\\s+\\{[\\s\\S]*?\\}\\s*--!?>`, 'g');
   let out = String(body || '').replace(own, '').replace(/\s+$/, '') + `\n\n${block}`;
   for (;;) {
     if (Buffer.byteLength(out) <= MAX_COMMENT_BYTES_JEV) return out;
