@@ -42,6 +42,15 @@
 <sub>E · mínima, solo texto con el gato (por si las insignias pesan demasiado)</sub>
 <p align="center"><a href="https://github.com/santifer"><img src="docs/avatar-santifer.png" width="48" height="48" align="middle" alt="Santiago Fernández de Valderrama Aparicio"></a>&nbsp;&nbsp;<a href="https://github.com/santifer"><img src="https://img.shields.io/badge/-%40santifer-2b3137?style=flat&logo=github&logoColor=white" alt="@santifer on GitHub" align="middle"></a>&nbsp;<a href="https://github.com/santifer"><sub>Follow on GitHub →</sub></a></p>
 
+<sub>F · solo texto: «Created by @santifer»</sub>
+<p align="center"><a href="https://github.com/santifer"><img src="docs/avatar-santifer.png" width="48" height="48" align="middle" alt="Santiago Fernández de Valderrama Aparicio"></a>&nbsp;&nbsp;Created by <a href="https://github.com/santifer"><strong>@santifer</strong></a></p>
+
+<sub>G · insignia neutra gris con el gato, sin contador</sub>
+<p align="center"><a href="https://github.com/santifer"><img src="docs/avatar-santifer.png" width="48" height="48" align="middle" alt="Santiago Fernández de Valderrama Aparicio"></a>&nbsp;&nbsp;<a href="https://github.com/santifer"><img src="https://img.shields.io/badge/Created%20by-%40santifer-2b3137?style=for-the-badge&logo=github&logoColor=white&labelColor=555" alt="Created by @santifer" align="middle"></a></p>
+
+<sub>H · insignia pequeña y discreta</sub>
+<p align="center"><a href="https://github.com/santifer"><img src="docs/avatar-santifer.png" width="48" height="48" align="middle" alt="Santiago Fernández de Valderrama Aparicio"></a>&nbsp;&nbsp;<a href="https://github.com/santifer"><img src="https://img.shields.io/badge/by-%40santifer-2b3137?style=flat&logo=github&logoColor=white" alt="by @santifer" align="middle"></a></p>
+
 <p align="center">
 <strong>Months of sending CVs into&nbsp;silence.</strong><br>
 So I built the filter I&nbsp;needed.
