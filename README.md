@@ -27,6 +27,21 @@
 
 <p align="center"><a href="https://github.com/santifer"><img src="docs/avatar-santifer.png" width="48" height="48" align="middle" alt="Santiago Fernández de Valderrama Aparicio"></a>&nbsp;&nbsp;<a href="https://github.com/santifer"><img src="https://img.shields.io/github/followers/santifer?label=Follow%20%40santifer&style=social" alt="Follow @santifer on GitHub" align="middle"></a></p>
 
+<sub>A · actual (social, con contador)</sub>
+<p align="center"><a href="https://github.com/santifer"><img src="docs/avatar-santifer.png" width="48" height="48" align="middle" alt="Santiago Fernández de Valderrama Aparicio"></a>&nbsp;&nbsp;<a href="https://github.com/santifer"><img src="https://img.shields.io/github/followers/santifer?label=Follow%20%40santifer&style=social" alt="Follow @santifer on GitHub" align="middle"></a></p>
+
+<sub>B · botón grande verde (como los botones de GitHub, mismo verde que la insignia de release)</sub>
+<p align="center"><a href="https://github.com/santifer"><img src="docs/avatar-santifer.png" width="48" height="48" align="middle" alt="Santiago Fernández de Valderrama Aparicio"></a>&nbsp;&nbsp;<a href="https://github.com/santifer"><img src="https://img.shields.io/badge/Follow%20%40santifer-on%20GitHub-2ea44f?style=for-the-badge&logo=github&logoColor=white&labelColor=2b3137" alt="Follow @santifer on GitHub" align="middle"></a></p>
+
+<sub>C · botón grande con contador en vivo</sub>
+<p align="center"><a href="https://github.com/santifer"><img src="docs/avatar-santifer.png" width="48" height="48" align="middle" alt="Santiago Fernández de Valderrama Aparicio"></a>&nbsp;&nbsp;<a href="https://github.com/santifer"><img src="https://img.shields.io/github/followers/santifer?label=Follow%20%40santifer&style=for-the-badge&logo=github&logoColor=white&labelColor=2b3137&color=2ea44f" alt="Follow @santifer on GitHub" align="middle"></a></p>
+
+<sub>D · con motivo para seguir (el que más CTA debería dar)</sub>
+<p align="center"><a href="https://github.com/santifer"><img src="docs/avatar-santifer.png" width="48" height="48" align="middle" alt="Santiago Fernández de Valderrama Aparicio"></a>&nbsp;&nbsp;Built by <a href="https://github.com/santifer"><strong>@santifer</strong></a> · follow for what ships next&nbsp;&nbsp;<a href="https://github.com/santifer"><img src="https://img.shields.io/github/followers/santifer?label=Follow&style=social" alt="Follow @santifer on GitHub" align="middle"></a></p>
+
+<sub>E · mínima, solo texto con el gato (por si las insignias pesan demasiado)</sub>
+<p align="center"><a href="https://github.com/santifer"><img src="docs/avatar-santifer.png" width="48" height="48" align="middle" alt="Santiago Fernández de Valderrama Aparicio"></a>&nbsp;&nbsp;<a href="https://github.com/santifer"><img src="https://img.shields.io/badge/-%40santifer-2b3137?style=flat&logo=github&logoColor=white" alt="@santifer on GitHub" align="middle"></a>&nbsp;<a href="https://github.com/santifer"><sub>Follow on GitHub →</sub></a></p>
+
 <p align="center">
 <strong>Months of sending CVs into&nbsp;silence.</strong><br>
 So I built the filter I&nbsp;needed.
