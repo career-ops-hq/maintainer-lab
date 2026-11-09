@@ -1,6 +1,6 @@
 {
   "name": "career-ops-lab-scaffolder",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "private": true,
   "description": "maintainer-lab: lo que release-please sube en la PR de versión y el job publish-npm empaqueta (S26). No se publica."
 }

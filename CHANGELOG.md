@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://github.com/career-ops-hq/maintainer-lab/compare/career-ops-v0.3.0...career-ops-v0.3.1) (2026-11-09)
+
+
+### Bug Fixes
+
+* lab s26 follow-up ([#21](https://github.com/career-ops-hq/maintainer-lab/issues/21)) ([97adcc0](https://github.com/career-ops-hq/maintainer-lab/commit/97adcc0d2184e27f09be77f3f7dd7a6d90f33593))
+
 ## [0.3.0](https://github.com/career-ops-hq/maintainer-lab/compare/career-ops-v0.2.1...career-ops-v0.3.0) (2026-11-09)
 
 
