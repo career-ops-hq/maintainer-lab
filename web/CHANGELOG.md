@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/career-ops-hq/maintainer-lab/compare/web-v0.2.1...web-v0.3.0) (2026-11-09)
+
+
+### Features
+
+* lab s26 release ([#19](https://github.com/career-ops-hq/maintainer-lab/issues/19)) ([1e99a5e](https://github.com/career-ops-hq/maintainer-lab/commit/1e99a5e7c92f632a828894f875dfcafb69f901f8))
+
 ## [0.2.1](https://github.com/career-ops-hq/maintainer-lab/compare/web-v0.2.0...web-v0.2.1) (2026-09-24)
 
 
