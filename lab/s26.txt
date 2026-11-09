@@ -1,1 +1,2 @@
 S26 lab: a fake feature so release-please opens a version PR (9-nov).
+S26 lab: follow-up fix so the next version PR starts from our tags (9-nov).
