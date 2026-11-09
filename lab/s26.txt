@@ -1,0 +1,1 @@
+S26 lab: a fake feature so release-please opens a version PR (9-nov).
